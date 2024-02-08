@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+header {
+    text-align: center;
+    border-bottom: 1px solid #555;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.container {
+    position:absolute;
+    width: 100%;
+    bottom: 40vh;
+    text-align: center;
+}
+.message-color {
+    color: #5cff17;
+}
+.alert-message {
+    color: #ff0000;
+}
+.description-area {
+    position:absolute;
+    bottom:10vh;
+    left: 5vh;
+    width: 90%;
+    text-align: center;
+    border: 1px solid #555;
+    opacity: 0;
+}
+ol {
+    list-style: none;
+    padding: 0;
+}
+.show-content {
+    opacity: 1;
+}
